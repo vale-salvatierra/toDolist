@@ -1,0 +1,39 @@
+.backg {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.headerbg {
+    background: linear-gradient(to left, #1e3c72, #2a5298);
+}
+
+.bgpgrey {
+    background: linear-gradient(to right, #1e3c72, #c0c6cb);
+
+}
+
+.bgpred {
+    background: linear-gradient(to right, #8b0000, #a9a9a9);
+
+}
+
+.card {
+
+    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #003973);
+    background-size: 400% 400%;
+    animation: oceanGradient 15s ease infinite;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes oceanGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
