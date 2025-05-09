@@ -60,3 +60,9 @@ const addTask = (event) => {
 button.addEventListener('click', (event) => {
     addTask(event)
 })
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        addTask(event);
+    }
+});
